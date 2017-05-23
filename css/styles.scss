@@ -1,0 +1,22 @@
+/* Grand Central Station */
+// Imports
+@import "normalize";
+@import "lightgallery";
+@import "lg-transitions";
+
+
+body {
+    background: lightgrey;
+    font-family: sans-serif;
+}
+
+// Portfolio Items
+figure {
+    background: salmon;
+    padding: 1em;
+    width: 300px;
+}
+
+figure img {
+    box-sizing: 2px 2px 2px grey;
+}
