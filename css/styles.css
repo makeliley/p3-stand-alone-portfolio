@@ -2594,9 +2594,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 /*# sourceMappingURL=lg-transitions.css.map */
 /* line 8, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 body {
-  background: lightgrey;
-  font-family: sans-serif; }
-
+  background: white;
+  font-family: 'Quicksand', sans-serif;}
+h1 {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 3em;}
 /* line 14, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 figure {
   background: salmon;

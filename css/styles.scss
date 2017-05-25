@@ -6,17 +6,21 @@
 
 
 body {
-    background: lightgrey;
+    background: white;
     font-family: sans-serif;
-}
+    font-family: 'Quicksand', sans-serif;}
+
+h1 {
+    font-family: 'Londrina Solid', cursive;}
+
+#picon {
+    width: 10%;}
 
 // Portfolio Items
 figure {
     background: salmon;
     padding: 1em;
-    width: 300px;
-}
+    width: 300px;}
 
 figure img {
-    box-sizing: 2px 2px 2px grey;
-}
+    box-sizing: 2px 2px 2px grey;}
