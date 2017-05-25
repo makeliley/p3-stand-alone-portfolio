@@ -5,23 +5,39 @@
 @import "lg-transitions";
 
 
-body {
+main {
     background: white;
     font-family: sans-serif;
-    font-family: 'Quicksand', sans-serif;}
+    font-family: 'Quicksand', sans-serif;
+      width: 90%;
+    margin: 0 auto;}
 
 h1 {
-    font-family: 'Londrina Solid', cursive;}
+    font-family: 'Londrina Solid', cursive;
+    padding: 80px 30px;
+    font-size: 3em;}
 
 #picon {
-    width: 10%;}
+    width: 20%;
+    float: left;}
+.thumb {
+    width: 30%;
+}
 
 // Portfolio Items
 figure {
     background: salmon;
     padding: 1em;
-    width: 300px;
-    border-radius: 10px;}
+    width: 80%;
+    border-radius: 5px;}
 
 figure img {
-    box-sizing: 2px 2px 2px grey;}
+    box-sizing: 2px 2px 2px grey;
+    border-radius: 5px;}
+
+/* article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */

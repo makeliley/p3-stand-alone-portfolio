@@ -1309,7 +1309,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 /* line 821, /Users/mley/Documents/p3-stand-alone-portfolio/css/_lightgallery.css */
 .lg-outer .lg-item {
-  background: url("img/customloadingimg.gif") no-repeat scroll center center transparent;
+  background: url("../img/loading.gif") no-repeat scroll center center transparent;
   display: none !important; }
 
 /* line 825, /Users/mley/Documents/p3-stand-alone-portfolio/css/_lightgallery.css */
@@ -2593,29 +2593,45 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 /*# sourceMappingURL=lg-transitions.css.map */
 /* line 8, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
-body {
+main {
   background: white;
+  font-family: sans-serif;
   font-family: 'Quicksand', sans-serif;
   width: 90%;
-  margin: 0 auto;}
+  margin: 0 auto; }
+
+/* line 15, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 h1 {
-    font-family: 'Londrina Solid', sans-serif;
-    font-size: 3em;
-    padding: 5% 17%;}
-#picon {
-    width: 15%;
-    float: left;}
-.thumb {
-    width: 100px;}
-/* line 14, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
-figure {
-  background: #ff865b;
-  padding: 1em;
-  width: 80%;
-   border-radius: 10px;}
+  font-family: 'Londrina Solid', cursive;
+  padding: 80px 30px;
+  font-size: 3em; }
 
 /* line 20, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+#picon {
+  width: 20%;
+  float: left; }
+
+/* line 23, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+.thumb {
+  width: 30%; }
+
+/* line 28, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+figure {
+  background: salmon;
+  padding: 1em;
+  width: 80%;
+  border-radius: 5px; }
+
+/* line 34, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 figure img {
-  box-sizing: 2px 2px 2px grey; }
+  box-sizing: 2px 2px 2px grey;
+  border-radius: 5px; }
+
+/* article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
 
 /*# sourceMappingURL=styles.css.map */
