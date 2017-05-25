@@ -2606,14 +2606,13 @@ h1 {
     width: 15%;
     float: left;}
 .thumb {
-    width: 100px;
-}
+    width: 100px;}
 /* line 14, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 figure {
   background: #ff865b;
-  background: #ff865b;
   padding: 1em;
-  width: 70%; }
+  width: 70%;
+   border-radius: 10px;}
 
 /* line 20, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 figure img {
