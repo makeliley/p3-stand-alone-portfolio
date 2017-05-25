@@ -3,6 +3,7 @@
 @import "normalize";
 @import "lightgallery";
 @import "lg-transitions";
+@import "lg-thumbnail";
 
 
 main {
@@ -14,26 +15,27 @@ main {
 
 h1 {
     font-family: 'Londrina Solid', cursive;
-    padding: 80px 30px;
-    font-size: 3em;}
+    padding: 6.5%;
+    font-size: 4em;}
 
 #picon {
     width: 20%;
     float: left;}
 .thumb {
-    width: 30%;
-}
+    width: 30%;}
+.social {
+    width: 10%;}
 
 // Portfolio Items
 figure {
-    background: salmon;
-    padding: 1em;
-    width: 80%;
+    background: white;
+    width: 100%;
     border-radius: 5px;}
 
 figure img {
     box-sizing: 2px 2px 2px grey;
-    border-radius: 5px;}
+    border-radius: 5px;
+    margin: 10px 0;}
 
 /* article {
   width: 100%;
@@ -41,3 +43,16 @@ figure img {
   flex-wrap: wrap;
   justify-content: center;
 } */
+
+.lg-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1040;
+  background-color: #000;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.15s ease 0s;
+  -o-transition: opacity 0.15s ease 0s;
+  transition: opacity 0.15s ease 0s; }

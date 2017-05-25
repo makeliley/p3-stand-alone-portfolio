@@ -1390,7 +1390,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   bottom: 0;
   z-index: 1040;
   background-color: #000;
-  opacity: 0;
+  opacity: 0.5;
   -webkit-transition: opacity 0.15s ease 0s;
   -o-transition: opacity 0.15s ease 0s;
   transition: opacity 0.15s ease 0s; }
@@ -2603,8 +2603,8 @@ main {
 /* line 15, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 h1 {
   font-family: 'Londrina Solid', cursive;
-  padding: 80px 30px;
-  font-size: 3em; }
+  padding: 6.5%;
+  font-size: 4em; }
 
 /* line 20, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 #picon {
@@ -2617,15 +2617,15 @@ h1 {
 
 /* line 28, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 figure {
-  background: salmon;
-  padding: 1em;
-  width: 80%;
+  background: white;
+  width: 100%;
   border-radius: 5px; }
 
-/* line 34, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+/* line 33, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 figure img {
   box-sizing: 2px 2px 2px grey;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin: 10px 0; }
 
 /* article {
   width: 100%;
