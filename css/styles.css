@@ -2595,15 +2595,24 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 /* line 8, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 body {
   background: white;
-  font-family: 'Quicksand', sans-serif;}
+  font-family: 'Quicksand', sans-serif;
+  width: 90%;
+  margin: 0 auto;}
 h1 {
     font-family: 'Londrina Solid', sans-serif;
-    font-size: 3em;}
+    font-size: 3em;
+    padding: 5% 17%;}
+#picon {
+    width: 15%;
+    float: left;}
+.thumb {
+    width: 100px;
+}
 /* line 14, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 figure {
-  background: salmon;
+  background: #ff865b;
   padding: 1em;
-  width: 300px; }
+  width: 70%; }
 
 /* line 20, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 figure img {
