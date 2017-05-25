@@ -1309,7 +1309,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 /* line 821, /Users/mley/Documents/p3-stand-alone-portfolio/css/_lightgallery.css */
 .lg-outer .lg-item {
-  background: url("../img/loading.gif") no-repeat scroll center center transparent;
+  background: url("img/customloadingimg.gif") no-repeat scroll center center transparent;
   display: none !important; }
 
 /* line 825, /Users/mley/Documents/p3-stand-alone-portfolio/css/_lightgallery.css */
@@ -2610,6 +2610,7 @@ h1 {
 }
 /* line 14, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 figure {
+  background: #ff865b;
   background: #ff865b;
   padding: 1em;
   width: 70%; }
