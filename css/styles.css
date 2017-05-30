@@ -2615,6 +2615,10 @@ h1 {
 .thumb {
   width: 30%; }
 
+/* line 26, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+.social {
+    width: 10%;}
+
 /* line 28, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 figure {
   background: white;
