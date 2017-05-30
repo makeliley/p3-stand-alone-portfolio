@@ -20,7 +20,8 @@ h1 {
 
 #picon {
     width: 20%;
-    float: left;}
+    float: left;
+    padding: 0 30px;}
 .thumb {
     width: 30%;}
 .social {
@@ -60,7 +61,6 @@ figure img {
 footer {
     margin: auto;
       width: 960px;
-
 }
 
 /* -------- MEDIA QUERIES -------- */
@@ -70,10 +70,12 @@ footer {
   p{
     font-size: 1em;}
   h1 {
-    font-size: 2.5em;
+    font-size: 2.3em;
     text-align: center;}
  #picon {
-    width: 90%;}
+    width: 80%;
+    display: block;
+    margin: 0 auto;}
  .thumb {
     width: 40%;}
  .social {
