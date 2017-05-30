@@ -2662,7 +2662,8 @@ footer {
   .thumb {
     width: 40%;}
   .social {
-    width: 25%;}
+    width: 80px;
+    }
 }
 
 /*# sourceMappingURL=styles.css.map */

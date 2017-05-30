@@ -64,6 +64,7 @@ footer {
 }
 
 /* -------- MEDIA QUERIES -------- */
+// Phone
 @media (max-width:500px) {
   body {
     width: 90%;} 
@@ -79,5 +80,5 @@ footer {
  .thumb {
     width: 40%;}
  .social {
-    width: 25%;}
+    width: 80px;}
 }
