@@ -2604,7 +2604,7 @@ main {
 h1 {
   font-family: 'Londrina Solid', cursive;
   padding: 6.5%;
-  font-size: 4em; }
+  font-size: 4em;}
 
 /* line 20, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 #picon {
@@ -2633,5 +2633,29 @@ figure img {
   flex-wrap: wrap;
   justify-content: center;
 } */
+
+/* line 60, /Users/mley/Documents/p-stand-alone-portfolio/css/styles.scss */
+footer {
+    margin: auto;
+    width: 960px;
+}
+
+/* line 64, /Users/mley/Documents/p-stand-alone-portfolio/css/styles.scss */
+/* -------- MEDIA QUERIES -------- */
+@media (max-width:500px) {
+  body {
+    width: 90%;} 
+  p{
+    font-size: 1em;}
+  h1 {
+    font-size: 2.5em;
+    text-align: center;}
+  #picon {
+    width: 90%;}
+  .thumb {
+    width: 40%;}
+  .social {
+    width: 25%;}
+}
 
 /*# sourceMappingURL=styles.css.map */
