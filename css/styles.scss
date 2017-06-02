@@ -26,16 +26,21 @@ h1 {
 .thumb {
     width: 30%;
     padding: 0 10px;}
+.thumb:hover {
+    opacity: .7;
+}
 
 //Social Icons
 .social {
     width: 10%;}
+.social:hover {
+    opacity: .7;
+}
 
 // Portfolio Items
 figure {
     background: white;
-    width: 100%;
-    border-radius: 5px;}
+    width: 100%;}
 
 figure img {
     box-sizing: 2px 2px 2px grey;
@@ -75,8 +80,10 @@ footer {
   p{
     font-size: 1em;}
   h1 {
-    font-size: 10vw;
-    text-align: center;}
+    font-size: 12vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;}
  #picon {
     width: 80%;
     display: block;
