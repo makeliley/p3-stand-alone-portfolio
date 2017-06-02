@@ -2496,11 +2496,11 @@ main {
 h1 {
   font-family: 'Londrina Solid', cursive;
   padding: 6.5%;
-  font-size: 4em; }
+  font-size: 5em; }
 
 /* line 20, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 #picon {
-  width: 20%;
+  width: 30%;
   float: left;
   padding: 0 30px; }
 
