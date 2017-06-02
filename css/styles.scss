@@ -1,10 +1,8 @@
 /* Grand Central Station */
 // Imports
 @import "normalize";
-@import "lightgallery";
-@import "lg-transitions";
-@import "lg-thumbnail";
-
+@import "lightgallery.min";
+@import "lg-transitions.min";
 
 main {
     background: white;
@@ -18,12 +16,18 @@ h1 {
     padding: 6.5%;
     font-size: 4em;}
 
+// Personal Icon
 #picon {
     width: 20%;
     float: left;
     padding: 0 30px;}
+
+// Thumbnails
 .thumb {
-    width: 30%;}
+    width: 30%;
+    padding: 0 10px;}
+
+//Social Icons
 .social {
     width: 10%;}
 
@@ -65,13 +69,13 @@ footer {
 
 /* -------- MEDIA QUERIES -------- */
 // Phone
-@media (max-width:500px) {
+@media (max-width:600px) {
   body {
     width: 90%;} 
   p{
     font-size: 1em;}
   h1 {
-    font-size: 2.3em;
+    font-size: 10vw;
     text-align: center;}
  #picon {
     width: 80%;

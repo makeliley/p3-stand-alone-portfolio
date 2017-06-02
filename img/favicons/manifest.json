@@ -1,5 +1,5 @@
 {
-    "name": "MLey Portfolio",
+    "name": "",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -12,7 +12,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#fcfafb",
-    "background_color": "#fcfafb",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
 }
