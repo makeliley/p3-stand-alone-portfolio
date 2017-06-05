@@ -8,9 +8,13 @@ main {
     background: white;
     font-family: sans-serif;
     font-family: 'Quicksand', sans-serif;
-      width: 90%;
+    width: 90%;
     margin: 0 auto;}
-
+p {
+    display: block;
+    padding: 0 0 0 10px;
+    max-width: 90%;;
+}
 h1 {
     font-family: 'Londrina Solid', cursive;
     padding: 6.5%;
@@ -74,7 +78,7 @@ footer {
 
 /* -------- MEDIA QUERIES -------- */
 // Phone
-@media (max-width:600px) {
+@media (max-width:700px) {
   body {
     width: 90%;} 
   p{
@@ -86,6 +90,7 @@ footer {
     margin: 0;}
  #picon {
     width: 80%;
+    max-width: 300px;
     display: block;
     margin: 0 auto;}
  .thumb {

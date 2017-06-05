@@ -2492,41 +2492,47 @@ main {
   width: 90%;
   margin: 0 auto; }
 
-/* line 14, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+/* line 13, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+p {
+  display: block;
+  padding: 0 0 0 10px;
+  max-width: 90%; }
+
+/* line 18, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 h1 {
   font-family: 'Londrina Solid', cursive;
   padding: 6.5%;
   font-size: 5em; }
 
-/* line 20, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+/* line 24, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 #picon {
-  width: 30%;
+  width: 20%;
   float: left;
   padding: 0 30px; }
 
-/* line 26, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+/* line 30, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 .thumb {
   width: 30%;
   padding: 0 10px; }
 
-/* line 29, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+/* line 33, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 .thumb:hover {
   opacity: .7; }
 
-/* line 34, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+/* line 38, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 .social {
   width: 10%; }
 
-/* line 36, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+/* line 40, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 .social:hover {
   opacity: .7; }
 
-/* line 41, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+/* line 45, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 figure {
   background: white;
   width: 100%; }
 
-/* line 45, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+/* line 49, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 figure img {
   box-sizing: 2px 2px 2px grey;
   border-radius: 5px;
@@ -2538,7 +2544,7 @@ figure img {
   flex-wrap: wrap;
   justify-content: center;
 } */
-/* line 57, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+/* line 61, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 .lg-backdrop {
   position: fixed;
   top: 0;
@@ -2552,34 +2558,35 @@ figure img {
   -o-transition: opacity 0.15s ease 0s;
   transition: opacity 0.15s ease 0s; }
 
-/* line 70, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+/* line 74, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
 footer {
   margin: auto;
   width: 960px; }
 
 /* -------- MEDIA QUERIES -------- */
-@media (max-width: 600px) {
-  /* line 78, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+@media (max-width: 700px) {
+  /* line 82, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
   body {
     width: 90%; }
-  /* line 80, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+  /* line 84, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
   p {
     font-size: 1em; }
-  /* line 82, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+  /* line 86, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
   h1 {
     font-size: 12vw;
     text-align: center;
     padding: 0;
     margin: 0; }
-  /* line 87, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+  /* line 91, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
   #picon {
     width: 80%;
+    max-width: 300px;
     display: block;
     margin: 0 auto; }
-  /* line 91, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+  /* line 96, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
   .thumb {
     width: 40%; }
-  /* line 93, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
+  /* line 98, /Users/mley/Documents/p3-stand-alone-portfolio/css/styles.scss */
   .social {
     width: 80px; } }
 
