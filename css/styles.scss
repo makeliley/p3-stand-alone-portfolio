@@ -10,11 +10,12 @@ main {
     font-family: 'Quicksand', sans-serif;
     width: 90%;
     margin: 0 auto;}
+
 p {
     display: block;
     padding: 0 0 0 10px;
-    max-width: 90%;;
-}
+    max-width: 90%;}
+
 h1 {
     font-family: 'Londrina Solid', cursive;
     padding: 6.5%;
@@ -31,15 +32,14 @@ h1 {
     width: 30%;
     padding: 0 10px;}
 .thumb:hover {
-    opacity: .7;
-}
+    opacity: .7;}
 
 //Social Icons
 .social {
-    width: 10%;}
-.social:hover {
-    opacity: .7;
+    width: 10%;
 }
+.social:hover {
+    opacity: .7;}
 
 // Portfolio Items
 figure {
@@ -72,8 +72,9 @@ figure img {
   transition: opacity 0.15s ease 0s; }
 
 footer {
+    width: 100%;
     margin: auto;
-      width: 960px;
+    
 }
 
 /* -------- MEDIA QUERIES -------- */
