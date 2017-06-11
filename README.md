@@ -2,4 +2,4 @@
 Stand Alone Portfolio
 
 
-why doesn't my favicon work
+i don't remember how i got my favicon to work
